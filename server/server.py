@@ -1,7 +1,7 @@
 import socket
 import keyboard
 
-HOST = "25.xxx.xxx.xxx"
+HOST = "25.41.206.132"
 PORT = 5005
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
