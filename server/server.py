@@ -14,7 +14,9 @@ while True:
     commande = data.decode("utf-8")
     print(f"Commande reçue de {addr}: {commande}")
     if commande == "z":
-        keyboard.press_and_release("z")
+        keyboard.press("z")
+        keyboard.wait(0.1)
+        keyboard.release("z")
         print("AVANCER")
 
     elif commande == "s":
